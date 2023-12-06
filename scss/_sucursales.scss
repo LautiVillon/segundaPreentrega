@@ -1,0 +1,30 @@
+@mixin maps {
+  width: 100%;
+  height: 400px;
+}
+.map {
+  border-radius: 4px;
+}
+.Colon {
+  @include maps;
+  margin-bottom: 70px;
+}
+.VillaElisa {
+  @include maps;
+  margin-bottom: 50px;
+}
+iframe {
+  border: 2px solid #ccc;
+  width: 100%;
+  height: 100%;
+}
+h2 {
+  align-items: center;
+  display: flex;
+  justify-content: center;
+  margin-bottom: 20px;
+  background-color: $color1;
+  color: $color2;
+  height: 40px;
+  border-radius: 4px;
+}

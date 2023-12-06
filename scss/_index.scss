@@ -1,0 +1,39 @@
+.jumbotron {
+  background-image: url(../multimedia/fondo1.jpg);
+  background-size: cover;
+  height: 350px;
+  color: $color1;
+  text-shadow: 0 0 100px #343434;
+}
+.jumbotron2 {
+  background-color: $color2;
+  height: auto;
+  color: $color1;
+  text-align: center;
+  align-items: center;
+}
+.button {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 70px;
+  width: auto;
+  margin: 10px;
+  text-align: center;
+  text-decoration: none;
+  color: white;
+  background-color: $color1;
+  border: 1px solid #f00;
+  border-radius: 5px;
+  transition: background-color 0.3s ease;
+  opacity: 0.8;
+  padding-top: none;
+}
+.button:hover {
+  opacity: 1;
+  background-color: $color1;
+  border-color: $color1;
+  color: $color2;
+  text-decoration: none;
+  border: 1px solid $color2;
+}

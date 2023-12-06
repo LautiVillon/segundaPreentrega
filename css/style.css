@@ -1,0 +1,191 @@
+@charset "UTF-8";
+* {
+  margin: 0;
+  padding: 0%;
+}
+
+body {
+  background-color: rgb(240, 240, 240);
+  max-width: 100%;
+}
+
+form {
+  max-width: 500px;
+  margin: 50px auto;
+}
+
+input[type=text],
+input[type=email],
+textarea {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+input[type=submit] {
+  background-color: #940000;
+  color: #fafafa;
+  padding: 15px 20px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+input[type=submit]:hover {
+  background-color: #940000;
+}
+
+footer {
+  background-color: rgb(240, 240, 240);
+  padding: 0;
+  text-align: center;
+  height: 500%;
+  align-items: end;
+}
+
+.contenido-footer {
+  background-color: #940000;
+  color: rgb(182, 182, 182);
+  height: 70px;
+  display: flex;
+  justify-content: center;
+  align-items: flex-end;
+  text-align: center;
+}
+
+.navbar {
+  background-color: #940000;
+}
+
+.jumbotron {
+  background-image: url(../multimedia/fondo1.jpg);
+  background-size: cover;
+  height: 350px;
+  color: #940000;
+  text-shadow: 0 0 100px #343434;
+}
+
+.jumbotron2 {
+  background-color: #fafafa;
+  height: auto;
+  color: #940000;
+  text-align: center;
+  align-items: center;
+}
+
+.button {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 70px;
+  width: auto;
+  margin: 10px;
+  text-align: center;
+  text-decoration: none;
+  color: white;
+  background-color: #940000;
+  border: 1px solid #f00;
+  border-radius: 5px;
+  transition: background-color 0.3s ease;
+  opacity: 0.8;
+  padding-top: none;
+}
+
+.button:hover {
+  opacity: 1;
+  background-color: #940000;
+  border-color: #940000;
+  color: #fafafa;
+  text-decoration: none;
+  border: 1px solid #fafafa;
+}
+
+.card-group {
+  width: 100%;
+  height: auto;
+  text-align: center;
+}
+
+/*ajuste especifico para móvil*/ /*trabajos realizados, productos*/
+@media (min-width: 100px) {
+  .card-deck {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+  }
+}
+/*ajuste especifico para tablets*/ /*trabajos realizados, productos*/
+@media (min-width: 520px) {
+  .card-deck {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+  }
+}
+/*ajuste especifico para +tablets*/ /*trabajos realizados, productos*/
+@media (min-width: 768px) {
+  .card-deck {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+  }
+}
+.map {
+  border-radius: 4px;
+}
+
+.Colon {
+  width: 100%;
+  height: 400px;
+  margin-bottom: 70px;
+}
+
+.VillaElisa {
+  width: 100%;
+  height: 400px;
+  margin-bottom: 50px;
+}
+
+iframe {
+  border: 2px solid #ccc;
+  width: 100%;
+  height: 100%;
+}
+
+h2 {
+  align-items: center;
+  display: flex;
+  justify-content: center;
+  margin-bottom: 20px;
+  background-color: #940000;
+  color: #fafafa;
+  height: 40px;
+  border-radius: 4px;
+}
+
+.image {
+  width: 100%;
+}
+
+img {
+  width: 100%;
+  height: auto;
+  background-size: cover;
+  border-radius: 3px;
+  margin-top: 10px;
+}
+
+.gallery {
+  width: 100%;
+  margin: auto;
+}
+
+.gallery-margin {
+  margin: 0px;
+  padding: 10px;
+  width: 100%;
+}
+
+/*# sourceMappingURL=style.css.map */

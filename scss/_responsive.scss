@@ -1,0 +1,29 @@
+/*ajuste especifico para móvil*/ /*trabajos realizados, productos*/
+
+@media (min-width: 100px) {
+  .card-deck {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+  }
+}
+
+/*ajuste especifico para tablets*/ /*trabajos realizados, productos*/
+
+@media (min-width: 520px) {
+  .card-deck {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+  }
+}
+
+/*ajuste especifico para +tablets*/ /*trabajos realizados, productos*/
+
+@media (min-width: 768px) {
+  .card-deck {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+  }
+}

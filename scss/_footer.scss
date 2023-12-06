@@ -1,0 +1,16 @@
+footer {
+  background-color: rgb(240, 240, 240);
+  padding: 0;
+  text-align: center;
+  height: 500%;
+  align-items: end;
+}
+.contenido-footer {
+  background-color: $color1;
+  color: rgb(182, 182, 182);
+  height: 70px;
+  display: flex;
+  justify-content: center;
+  align-items: flex-end;
+  text-align: center;
+}
