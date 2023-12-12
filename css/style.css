@@ -34,7 +34,11 @@ input[type=submit] {
 }
 
 input[type=submit]:hover {
-  background-color: #940000;
+  background-color: #801717;
+}
+
+.bodyform {
+  height: 73.6vh;
 }
 
 footer {
@@ -165,6 +169,7 @@ h2 {
   border-radius: 4px;
 }
 
+/*uso de variables, operador (multiplicación) y mixin*/
 .image {
   width: 100%;
 }
@@ -175,17 +180,18 @@ img {
   background-size: cover;
   border-radius: 3px;
   margin-top: 10px;
+  transition: transform 0.3s;
+}
+
+img:hover {
+  transform: scale(1.1);
 }
 
 .gallery {
-  width: 100%;
-  margin: auto;
-}
-
-.gallery-margin {
   margin: 0px;
   padding: 10px;
   width: 100%;
+  overflow: hidden;
 }
 
 /*# sourceMappingURL=style.css.map */
