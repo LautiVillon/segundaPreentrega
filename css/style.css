@@ -12,6 +12,7 @@ body {
 form {
   max-width: 500px;
   margin: 50px auto;
+  padding: 20px;
 }
 
 input[type=text],
@@ -119,9 +120,6 @@ footer {
     flex-wrap: wrap;
     justify-content: space-between;
   }
-  h2 {
-    font-size: small;
-  }
 }
 /*ajuste especifico para tablets*/ /*trabajos realizados, productos*/
 @media (min-width: 520px) {
@@ -189,6 +187,7 @@ img {
 
 img:hover {
   transform: scale(1.1);
+  transition: 0.5;
 }
 
 .gallery {
